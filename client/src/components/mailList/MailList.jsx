@@ -3,11 +3,11 @@ import "./mailList.css"
 const MailList = () => {
   return (
     <div className="mail">
-      <h1 className="mailTitle">Save time, save money!</h1>
-      <span className="mailDesc">Sign up and we'll send the best deals to you</span>
+      <h1 className="mailTitle">Salva tiempo, salva dinero!</h1>
+      <span className="mailDesc">Suscribete para noticias</span>
       <div className="mailInputContainer">
         <input type="text" placeholder="Your Email" />
-        <button>Subscribe</button>
+        <button>Suscribirse</button>
       </div>
     </div>
   )

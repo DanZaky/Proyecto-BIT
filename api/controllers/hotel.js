@@ -73,11 +73,11 @@ export const countByType = async (req, res, next) => {
     const cabinCount = await Hotel.countDocuments({ type: "cabin" });
 
     res.status(200).json([
-      { type: "hotel", count: hotelCount },
-      { type: "apartments", count: apartmentCount },
-      { type: "resorts", count: resortCount },
-      { type: "villas", count: villaCount },
-      { type: "cabins", count: cabinCount },
+      { type: "futbol 5", count: hotelCount },
+      { type: "futbol 8", count: apartmentCount },
+      { type: "futbol 11", count: resortCount },
+      { type: "futbol sala", count: villaCount },
+      { type: "banquitas", count: cabinCount },
     ]);
   } catch (err) {
     next(err);

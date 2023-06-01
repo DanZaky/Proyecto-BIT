@@ -7,15 +7,15 @@ const SearchItem = ({ item }) => {
       <img src={item.photos[0]} alt="" className="siImg" />
       <div className="siDesc">
         <h1 className="siTitle">{item.name}</h1>
-        <span className="siDistance">{item.distance}m from center</span>
-        <span className="siTaxiOp">Free airport taxi</span>
+        <span className="siDistance">{item.distance}m del centro</span>
+        <span className="siTaxiOp">Hidratación gratuita</span>
         <span className="siSubtitle">
-          Studio Apartment with Air conditioning
+          Cancha Sintética Cubierta
         </span>
         <span className="siFeatures">{item.desc}</span>
-        <span className="siCancelOp">Free cancellation </span>
+        <span className="siCancelOp">Cancelación gratis </span>
         <span className="siCancelOpSubtitle">
-          You can cancel later, so lock in this great price today!
+          Puedes cancelar luego, asegura este precio ya mismo!
         </span>
       </div>
       <div className="siDetails">
@@ -25,9 +25,9 @@ const SearchItem = ({ item }) => {
         </div>}
         <div className="siDetailTexts">
           <span className="siPrice">${item.cheapestPrice}</span>
-          <span className="siTaxOp">Includes taxes and fees</span>
+          <span className="siTaxOp">Includes impuestos</span>
           <Link to={`/hotels/${item._id}`}>
-          <button className="siCheckButton">See availability</button>
+          <button className="siCheckButton">Ver disponibilidad</button>
           </Link>
         </div>
       </div>
